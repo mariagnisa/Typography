@@ -73,6 +73,7 @@ li {
   font-size: 0.9em;
   color: #4d4d4d;
   list-style-type: none;
+  line-height: 24px;
 }
 
 h1, h2, h3, h4 {
@@ -100,6 +101,7 @@ h3 {
 h4 {
   margin-bottom: -8px;
   font-style: italic;
+  line-height: 16px;
 }
 
 .bold {
