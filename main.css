@@ -15,16 +15,14 @@ body {
 }
 
 .intro-text {
-  width: 85%;
+  font-size: 1em;
   word-wrap: break-word;
   word-break: normal;
   margin: 0 auto;
 }
 
-.light-typo {
-  font-weight: 300;
-  font-size: 1em;
-  color: #4d4d4d;
+.intro-text p {
+  font-weight: 500;
 }
 
 .footer {
@@ -64,14 +62,14 @@ a:hover {
 
 p {
   font-size: 1em;
-  color: #4d4d4d;
+  color: #595959;
   font-weight: 400;
 }
 
 li {
   font-weight: 300;
   font-size: 0.9em;
-  color: #4d4d4d;
+  color: #595959;
   list-style-type: none;
   line-height: 24px;
 }
@@ -98,8 +96,8 @@ h3 {
   font-style: italic;
 }
 
-h4 {
-  margin-bottom: -8px;
+h4, h5 {
+  margin-bottom: -10px;
   font-style: italic;
   line-height: 16px;
 }
@@ -117,6 +115,21 @@ h4 {
   .wrapper {
     width: 80%;
     margin-bottom: 20px;
+  }
+
+  .footer {
+    display: block;
+    width: 90%;
+  }
+
+  .footer-left, .footer-right {
+    width: 80%;
+  }
+}
+
+@media screen and (min-width: 416px) and (max-width: 567px) {
+  .wrapper {
+    width: 70%;
   }
 
   .footer {
